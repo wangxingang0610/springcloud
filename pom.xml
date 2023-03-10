@@ -10,6 +10,7 @@
   <modules>
     <module>springcloud-provider-payment8001</module>
     <module>springcloud-consumer-order80</module>
+    <module>springcloud-api-commons</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->
