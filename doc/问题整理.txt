@@ -1,4 +1,4 @@
-1、Port 8001 was already in use
+1、端口占用。Port 8001 was already in use
 ***************************
 APPLICATION FAILED TO START
 ***************************
@@ -8,10 +8,11 @@ Description:
 Web server failed to start. Port 8001 was already in use.
 
 解决：
-1、查被占用的端口
-wangxingang@wangxingangdeMacBook-Pro ~ % sudo lsof -i:8001
-Password:
-COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
-java    36208 wangxingang    4u  IPv6 0x64fdb741908e7583      0t0  TCP *:vcom-tunnel (LISTEN)
-2、杀死占用
-wangxingang@wangxingangdeMacBook-Pro ~ % kill -9 36208
+    1、查被占用的端口
+    wangxingang@wangxingangdeMacBook-Pro ~ % sudo lsof -i:8001
+    Password:
+    COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+    java    36208 wangxingang    4u  IPv6 0x64fdb741908e7583      0t0  TCP *:vcom-tunnel (LISTEN)
+    2、杀死占用
+    wangxingang@wangxingangdeMacBook-Pro ~ % kill -9 36208
+
