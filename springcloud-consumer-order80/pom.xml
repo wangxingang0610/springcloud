@@ -13,6 +13,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.wangxg.springcloud</groupId>
             <artifactId>springcloud-api-commons</artifactId>
             <version>${project.version}</version>
