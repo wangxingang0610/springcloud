@@ -16,3 +16,5 @@ Web server failed to start. Port 8001 was already in use.
     2、杀死占用
     wangxingang@wangxingangdeMacBook-Pro ~ % kill -9 36208
 
+2、macOS 安装 zookeeper
+https://www.jianshu.com/p/77e51faf1fc3
