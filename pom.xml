@@ -19,6 +19,8 @@
       <module>springcloud-providerconsul-payment8006</module>
       <module>springcloud-consumerconsul-order80</module>
       <module>springcloud-consumer-feign-order80</module>
+    <module>springcloud-provider-hystrix-payment8001</module>
+      <module>springcloud-consumer-feign-hystrix-order80</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->

@@ -22,4 +22,7 @@ https://www.jianshu.com/p/77e51faf1fc3
 3、MacOS中安装Consul
 https://www.dianjilingqu.com/356855.html
 
+4、MacOS JMeter安装
+https://www.cnblogs.com/niceyoo/p/13700851.html
+
 
