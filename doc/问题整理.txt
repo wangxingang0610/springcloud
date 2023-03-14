@@ -25,7 +25,7 @@ https://www.dianjilingqu.com/356855.html
 4、MacOS JMeter安装
 https://www.cnblogs.com/niceyoo/p/13700851.html
 
-5、依赖包下载不下来 TODO ????
+5、依赖包下载不下来
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
