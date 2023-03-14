@@ -2,8 +2,7 @@ package com.wangxg.springcloud.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
-import com.wangxg.springcloud.client.PaymentFeignClient;
+import com.wangxg.springcloud.client.PaymentHystrixClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,15 +12,15 @@ import javax.annotation.Resource;
 
 @RestController
 @Slf4j
-@DefaultProperties(defaultFallback = "payment_Global_FallbackMethod")
-public class OrderHystirxController {
+//@DefaultProperties(defaultFallback = "payment_Global_FallbackMethod")
+public class OrderHystrixController {
 
     @Resource
-    private PaymentFeignClient paymentFeignClient;
+    private PaymentHystrixClient paymentHystrixClient;
 
     @GetMapping("/consumer/payment/hystrix/ok/{id}")
     public String paymentInfo_OK(@PathVariable("id") Integer id){
-        return paymentFeignClient.paymentInfo_OK(id);
+        return paymentHystrixClient.paymentInfo_OK(id);
     }
 
 
@@ -31,7 +30,7 @@ public class OrderHystirxController {
 //    })
     @HystrixCommand
     public String paymentInfo_TimeOut(@PathVariable("id") Integer id){
-        return paymentFeignClient.paymentInfo_TimeOut(id);
+        return paymentHystrixClient.paymentInfo_TimeOut(id);
     }
 
     public String paymentTimeOutFallbackMethod(@PathVariable("id") Integer id)
