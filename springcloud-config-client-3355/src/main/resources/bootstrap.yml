@@ -1,5 +1,6 @@
 server:
   port: 3355
+
 spring:
   application:
     name: springconfig-client
@@ -16,3 +17,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+# 暴露监控端点
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"

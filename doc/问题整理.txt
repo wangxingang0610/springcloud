@@ -33,3 +33,8 @@ https://www.cnblogs.com/niceyoo/p/13700851.html
     【解决方法】：
         将这个包删除重新下载
 
+4、修改git中内容信息，访问http://localhost:3344/master/config-dev.yml 并没有发生变化？
+   【解决方法】：
+       强制刷新
+       a、Command + Shift + R【macos，强制刷新】
+       b、ctrl + F5【win，强制刷新】
