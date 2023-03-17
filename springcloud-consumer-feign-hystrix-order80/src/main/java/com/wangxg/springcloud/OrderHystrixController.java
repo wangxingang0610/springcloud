@@ -1,4 +1,4 @@
-package com.wangxg.springcloud.controller;
+package com.wangxg.springcloud;
 
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;

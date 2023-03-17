@@ -1,0 +1,255 @@
+wangxingang@wangxingangdeMacBook-Pro ~ % brew install rabbitmq
+To restore the stashed changes to /opt/homebrew run:
+  'cd /opt/homebrew && git stash pop'
+Updating Homebrew...
+To restore the stashed changes to /opt/homebrew/Library/Taps/homebrew/homebrew-cask run:
+  'cd /opt/homebrew/Library/Taps/homebrew/homebrew-cask && git stash pop'
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/bottles-portable-ruby/portable-ruby-2.6.8_1.arm64_big_sur.bottle.tar.gz
+-=O=-#   #      #      #
+curl: (22) The requested URL returned error: 404 Not Found
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:cf9137b1da5568d4949f71161a69b101f60ddb765e94d2b423c9801b67a1cb43
+########################################################################################################################### 100.0%
+==> Pouring portable-ruby-2.6.8_1.arm64_big_sur.bottle.tar.gz
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################## 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+######################################################################## 100.0%
+==> Fetching dependencies for rabbitmq: ca-certificates, openssl@1.1, m4, libtool, unixodbc, jpeg-turbo, libpng, lz4, xz, zstd, libtiff, pcre2, wxwidgets, and erlang
+==> Fetching ca-certificates
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/ca-certificates-2023-01-10.all.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/openssl%401.1-1.1.1t.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching m4
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/m4-1.4.19.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libtool
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/libtool-2.4.7.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching unixodbc
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/unixodbc-2.3.11.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching jpeg-turbo
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/jpeg-turbo-2.1.5.1.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libpng
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/libpng-1.6.39.arm64_big_sur.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Fetching lz4
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/lz4-1.9.4.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching xz
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/xz-5.4.1.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching zstd
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/zstd-1.5.4.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libtiff
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/libtiff-4.4.0_1.arm64_big_sur.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Fetching pcre2
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/pcre2-10.42.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching wxwidgets
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/wxwidgets-3.2.2.1.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching erlang
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/erlang-25.3.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching rabbitmq
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/rabbitmq-3.11.10.all.bottle.tar.gz
+######################################################################## 100.0%
+==> Installing dependencies for rabbitmq: ca-certificates, openssl@1.1, m4, libtool, unixodbc, jpeg-turbo, libpng, lz4, xz, zstd, libtiff, pcre2, wxwidgets, and erlang
+==> Installing rabbitmq dependency: ca-certificates
+==> Pouring ca-certificates-2023-01-10.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2023-01-10: 3 files, 216.8KB
+==> Installing rabbitmq dependency: openssl@1.1
+==> Pouring openssl@1.1-1.1.1t.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall openssl@1.1
+==> Summary
+🍺  /opt/homebrew/Cellar/openssl@1.1/1.1.1t: 8,101 files, 18MB
+==> Installing rabbitmq dependency: m4
+==> Pouring m4-1.4.19.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall m4
+==> Summary
+🍺  /opt/homebrew/Cellar/m4/1.4.19: 13 files, 726.3KB
+==> Installing rabbitmq dependency: libtool
+==> Pouring libtool-2.4.7.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall libtool
+==> Summary
+🍺  /opt/homebrew/Cellar/libtool/2.4.7: 75 files, 3.8MB
+==> Installing rabbitmq dependency: unixodbc
+==> Pouring unixodbc-2.3.11.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall unixodbc
+==> Summary
+🍺  /opt/homebrew/Cellar/unixodbc/2.3.11: 48 files, 2.3MB
+==> Installing rabbitmq dependency: jpeg-turbo
+==> Pouring jpeg-turbo-2.1.5.1.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall jpeg-turbo
+==> Summary
+🍺  /opt/homebrew/Cellar/jpeg-turbo/2.1.5.1: 44 files, 2.6MB
+==> Installing rabbitmq dependency: libpng
+==> Pouring libpng-1.6.39.arm64_big_sur.bottle.1.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall libpng
+==> Summary
+🍺  /opt/homebrew/Cellar/libpng/1.6.39: 27 files, 1.4MB
+==> Installing rabbitmq dependency: lz4
+==> Pouring lz4-1.9.4.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall lz4
+==> Summary
+🍺  /opt/homebrew/Cellar/lz4/1.9.4: 22 files, 696.5KB
+==> Installing rabbitmq dependency: xz
+==> Pouring xz-5.4.1.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall xz
+==> Summary
+🍺  /opt/homebrew/Cellar/xz/5.4.1: 95 files, 1.7MB
+==> Installing rabbitmq dependency: zstd
+==> Pouring zstd-1.5.4.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall zstd
+==> Summary
+🍺  /opt/homebrew/Cellar/zstd/1.5.4: 31 files, 2.3MB
+==> Installing rabbitmq dependency: libtiff
+==> Pouring libtiff-4.4.0_1.arm64_big_sur.bottle.1.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall libtiff
+==> Summary
+🍺  /opt/homebrew/Cellar/libtiff/4.4.0_1: 249 files, 4.9MB
+==> Installing rabbitmq dependency: pcre2
+==> Pouring pcre2-10.42.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall pcre2
+==> Summary
+🍺  /opt/homebrew/Cellar/pcre2/10.42: 230 files, 6.2MB
+==> Installing rabbitmq dependency: wxwidgets
+==> Pouring wxwidgets-3.2.2.1.arm64_big_sur.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/wxwidgets/3.2.2.1: 834 files, 25.7MB
+==> Installing rabbitmq dependency: erlang
+==> Pouring erlang-25.3.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall erlang
+==> Summary
+🍺  /opt/homebrew/Cellar/erlang/25.3: 7,888 files, 488.5MB
+==> Installing rabbitmq
+==> Pouring rabbitmq-3.11.10.all.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall rabbitmq
+==> Caveats
+Management Plugin enabled by default at http://localhost:15672
+
+To start rabbitmq now and restart at login:
+  brew services start rabbitmq
+==> Summary
+🍺  /opt/homebrew/Cellar/rabbitmq/3.11.10: 1,415 files, 33.7MB
+==> Running `brew cleanup rabbitmq`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Upgrading 1 dependent of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+git 2.30.0 -> 2.40.0
+==> Fetching dependencies for git: gettext
+==> Fetching gettext
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/gettext-0.21.1.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching git
+==> Downloading https://mirrors.cloud.tencent.com/homebrew-bottles/git-2.40.0.arm64_big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Upgrading git
+  2.30.0 -> 2.40.0
+
+==> Installing dependencies for git: gettext
+==> Installing git dependency: gettext
+==> Pouring gettext-0.21.1.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall gettext
+==> Summary
+🍺  /opt/homebrew/Cellar/gettext/0.21.1: 1,983 files, 21.2MB
+==> Installing git
+==> Pouring git-2.40.0.arm64_big_sur.bottle.tar.gz
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall git
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.40.0: 1,625 files, 48.6MB
+==> Running `brew cleanup git`...
+Removing: /opt/homebrew/Cellar/git/2.30.0... (1,486 files, 41MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/git--2.30.0.arm64_big_sur.bottle.tar.gz... (14.6MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/gettext/0.21... (1,953 files, 20.4MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/gettext--0.21.arm64_big_sur.bottle.tar.gz... (8.5MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/gettext--0.21.tar.xz... (9.3MB)
+Removing: /opt/homebrew/Cellar/openssl@1.1/1.1.1i... (8,060 files, 17.9MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/openssl@1.1--1.1.1i.tar.gz... (9.4MB)
+Removing: /opt/homebrew/Cellar/pcre2/10.36... (230 files, 5MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/pcre2--10.36.tar.bz2... (1.6MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/pcre2--10.36.arm64_big_sur.bottle.tar.gz... (1.5MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/redis--6.0.10.tar.gz... (2.2MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/xz--5.2.5.arm64_big_sur.bottle.tar.gz... (416.9KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/descriptions.json... (298.6KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/readline--8.1.tar.gz... (2.9MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/tcl-tk--tk--8.6.11.tar.gz... (4.3MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/python@3.9--wheel--0.36.2.tar.gz... (63.9KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/tcl-tk--tcllib--1.20.tar.xz... (6.4MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/tcl-tk--itk4--4.1.0.tar.gz... (247.8KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/tcl-tk--8.6.11.tar.gz... (9.8MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/tcl-tk--tcltls--1.7.22.tar.gz... (161.3KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/gdbm--1.18.1.tar.gz... (919.8KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/sqlite--3.34.0.tar.gz... (2.8MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/jpeg--9d.tar.gz... (1006.8KB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/tcl-tk--critcl--3.1.18.1.tar.gz... (1.7MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/python@3.9--3.9.1.tar.xz... (18MB)
+Removing: /Users/wangxingang/Library/Caches/Homebrew/Cask/vmware-fusion--12.1.0-17195230.dmg... (623.4MB)
+Removing: /Users/wangxingang/Library/Logs/Homebrew/redis... (3 files, 163.9KB)
+Removing: /Users/wangxingang/Library/Logs/Homebrew/gettext... (64B)
+Removing: /Users/wangxingang/Library/Logs/Homebrew/pcre2... (64B)
+Removing: /Users/wangxingang/Library/Logs/Homebrew/openssl@1.1... (7 files, 3.3MB)
+Removing: /Users/wangxingang/Library/Logs/Homebrew/git... (64B)
+Pruned 1 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+==> rabbitmq
+Management Plugin enabled by default at http://localhost:15672
+
+To start rabbitmq now and restart at login:
+  brew services start rabbitmq
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+wangxingang@wangxingangdeMacBook-Pro ~ %

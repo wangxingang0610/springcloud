@@ -1,4 +1,4 @@
-package com.wangxg.springcloud.controller;
+package com.wangxg.springcloud;
 
 import com.wangxg.springcloud.client.PaymentFeignClient;
 import com.wangxg.springcloud.entities.CommonResult;

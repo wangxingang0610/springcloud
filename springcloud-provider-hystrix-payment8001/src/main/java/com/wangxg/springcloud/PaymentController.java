@@ -1,4 +1,4 @@
-package com.wangxg.springcloud.controller;
+package com.wangxg.springcloud;
 
 import com.wangxg.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.wangxg.springcloud.controller;
+package com.wangxg.springcloud;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
