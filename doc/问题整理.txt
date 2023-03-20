@@ -78,3 +78,6 @@ https://www.cnblogs.com/niceyoo/p/13700851.html
     http://config-3344.com:3344/config-dev.yml
     http://localhost:3355/configInfo
     http://localhost:3366/configInfo
+
+8、zipkin下载
+   https://zipkin.io/pages/quickstart.html（官网）
