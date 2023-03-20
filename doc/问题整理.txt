@@ -81,3 +81,19 @@ https://www.cnblogs.com/niceyoo/p/13700851.html
 
 8、zipkin下载
    https://zipkin.io/pages/quickstart.html（官网）
+
+9、docker 安装nacos
+    参考：https://blog.csdn.net/weixin_46237429/article/details/125572308
+    a、拉取Nacos镜像
+       # 注意需要加版本号，否则会拉去失败
+       docker pull zhusaidong/nacos-server-m1:2.0.3
+    b、查看本地镜像
+       docker images
+    c、运行容器
+       docker run --env MODE=standalone --name nacos2.0.3 -d -p 8848:8848 -p 9848:9848 -p 9849:9849  zhusaidong/nacos-server-m1:2.0.3
+       报错：
+          docker: Error response from daemon: Mounts denied:
+          The path /Library/dev/soft/docker/nacos/standalone-logs is not shared from the host and is not known to Docker.
+
+          解决：
+            https://blog.csdn.net/shentian885/article/details/120820138
